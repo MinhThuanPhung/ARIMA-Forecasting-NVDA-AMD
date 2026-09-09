@@ -33,7 +33,8 @@ Daily closing prices for NVDA and AMD, retrieved via GOOGLEFINANCE,
 
 ## Key Findings
 
-![Forecast](assets/figures/fig10_forecast_20day.png)
+<img width="975" height="605" alt="image" src="https://github.com/user-attachments/assets/64fa91c0-1f73-488c-9145-87c1d6c24ec7" />
+
 
 1. Best fitting model for both stocks was ARIMA(0,1,0), the lowest BIC in each 
    case (NVDA: 3.157), and no richer AR/MA term survived scrutiny once the 
@@ -46,8 +47,8 @@ Daily closing prices for NVDA and AMD, retrieved via GOOGLEFINANCE,
 4. The 20 day ahead forecast for NVDA moved from $203.39 to $205.42 with a 
    widening confidence interval; the AMD forecast likewise carried increasing 
    uncertainty over the horizon
+<img width="975" height="303" alt="image" src="https://github.com/user-attachments/assets/5ab14ce8-7e82-4354-b23c-4d7dfa045e6e" />
 
-![Out of sample validation](assets/figures/fig11_outofsample_validation.png)
 
 5. Rolling out of sample validation (re estimating on the first 116 
    observations, forecasting the last 20) gave MAE = $10.93 for NVDA and 
